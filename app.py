@@ -14,4 +14,7 @@ def create_task():
     #return redirect("http://google.com", code=302)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run( 
+        host="0.0.0.0",
+        port=int("5000")
+  )
